@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,801 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: male three pistol up idle
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 3110
+        width: 160
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f984cc8377dcb741b5a3eb9b56ed9f0
+      internalID: -942425010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol up walk1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 3115
+        width: 166
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a52e34e4e5bccd47872097b0a9216cb
+      internalID: 411666272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol up walk2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3123
+        width: 157
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9a69d4128476c48b131ae497e998ad
+      internalID: 1655947578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol down idle
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2848
+        width: 160
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d10efb04f3409043a3c08cf378c254e
+      internalID: 1570467369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol down walk1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2865
+        width: 165
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dfd0d9f2f0efa4d830d024aa6c7ff8
+      internalID: -1524217102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol down walk2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2902
+        width: 156
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e89332170474ca439764f47ee81f302
+      internalID: -1767836035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol right idle
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2639
+        width: 235
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e8328195c015444bf162d635bfcf55
+      internalID: -786804680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol right walk1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2631
+        width: 207
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4839894e0a5c24dabf98bb615a6f12
+      internalID: -1918457617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol right walk2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2639
+        width: 155
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacfdd5a671c96b428245793ee7040e2
+      internalID: -2041292781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol left idle
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2381
+        width: 236
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fded17f921cf74db1e1b60908bbe48
+      internalID: -1783010690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol left walk1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 2381
+        width: 209
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc3ef69240f0ce4681aa418794aa26c
+      internalID: -230559036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three pistol left walk2
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2381
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc35c8f8db3dacc4092c42f757ef84d0
+      internalID: -1383261780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine up idle
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 2039
+        width: 160
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5923c79fea34144bc4fc10f40adf96
+      internalID: 1690836523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine up walk1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2073
+        width: 167
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1387fba9aa342c0428471b0e288eca3d
+      internalID: -830528425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine up walk2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2052
+        width: 191
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ce996ceb9c56540b0cd893082ea01a
+      internalID: -96134077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine down idle
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1805
+        width: 193
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406167cd081850e4c96a5352df525361
+      internalID: -421280091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine down walk1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1763
+        width: 167
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9ccb200e3fea14aa4eb2bfda3ff604
+      internalID: -1302786120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine down walk2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1727
+        width: 160
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce5f80f85fe4324680023312c3844bf
+      internalID: -1890446743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine left idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1492
+        width: 262
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c2794bcc6b83848952524bdc132556
+      internalID: 617084382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine left walk1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1489
+        width: 223
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a348b54b77f19146857702bd0f28749
+      internalID: -1903618417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine left walk2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1467
+        width: 177
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305270864df3dad44941a022246b5b40
+      internalID: 512329765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine right idle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1247
+        width: 264
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b921dd7c384db849bfc550a8b079b2b
+      internalID: 592956520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine right walk1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1227
+        width: 224
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0231fda96e87c4ea6c74865dcdfd3c
+      internalID: 895188883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three carbine right walk2
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1229
+        width: 178
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716bbee0930abd04cbe3e45498cdade1
+      internalID: 1636398167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg up idle
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 886
+        width: 181
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf98e2f6ce2c12468c661a41a8b1f20
+      internalID: -1374609470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg up walk1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 889
+        width: 172
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803de098022751e49b8acfc7cb431bd3
+      internalID: 1145649889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg up walk2
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 897
+        width: 202
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30fc1b4f175c124b9e574018084bec8
+      internalID: 1868489460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg left idle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 615
+        width: 287
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f75aec9ad9302488f8a0ed35379eb1
+      internalID: -1011259201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg left walk1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 626
+        width: 238
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4a3b322e662a44cb515093712afe68
+      internalID: -1821887737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg left walk2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 571
+        width: 165
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b60f8cfc0f242448f686757c6ec274
+      internalID: -1608302657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg down idle
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 248
+        width: 180
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24415a4ad5afc52478c17074ca594ca2
+      internalID: -1857189632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg down walk1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 269
+        width: 172
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30a4573ff2a10e47926c8ac9a0a093a
+      internalID: -820460733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg down walk2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 303
+        width: 202
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3d093f06202594abf32642e88d96a2
+      internalID: 1869639643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg right idle
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 287
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cf5106957ee70459b47aaded5d8306
+      internalID: 371064036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg right walk1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 238
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce43b614656ffb649b1569dd7a2d58ec
+      internalID: 238645880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: male three mg right walk2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 165
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11f20b59311300448c91a36f0de2c4a
+      internalID: -658060578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +881,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      male three pistol right walk1: -1918457617
+      male three carbine up idle: 1690836523
+      male three mg up walk2: 1868489460
+      male three pistol down idle: 1570467369
+      male three pistol right walk2: -2041292781
+      male three mg left walk2: -1608302657
+      male three carbine up walk1: -830528425
+      male three carbine down idle: -421280091
+      male three pistol down walk2: -1767836035
+      male three pistol up walk1: 411666272
+      male three carbine down walk2: -1890446743
+      male three carbine left walk2: 512329765
+      male three mg down walk2: 1869639643
+      male three carbine right walk2: 1636398167
+      male three mg right walk2: -658060578
+      male three mg left idle: -1011259201
+      male three mg left walk1: -1821887737
+      male three mg up idle: -1374609470
+      male three carbine right walk1: 895188883
+      male three mg right idle: 371064036
+      male three pistol right idle: -786804680
+      male three pistol up idle: -942425010
+      male three carbine down walk1: -1302786120
+      male three mg up walk1: 1145649889
+      male three mg down walk1: -820460733
+      male three mg down idle: -1857189632
+      male three pistol left walk2: -1383261780
+      male three carbine right idle: 592956520
+      male three carbine left idle: 617084382
+      male three pistol down walk1: -1524217102
+      male three pistol left idle: -1783010690
+      male three carbine left walk1: -1903618417
+      male three carbine up walk2: -96134077
+      male three pistol left walk1: -230559036
+      male three mg right walk1: 238645880
+      male three pistol up walk2: 1655947578
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
