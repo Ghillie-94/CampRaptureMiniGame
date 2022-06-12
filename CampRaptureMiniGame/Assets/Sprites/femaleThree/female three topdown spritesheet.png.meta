@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,801 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: female three pistol down idle
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3107
+        width: 121
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63cdf34f99f2f249b3552de6d91d0ba
+      internalID: -1467373081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol down walk1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 3100
+        width: 119
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc13dc182dfe98746805afaaa8fea046
+      internalID: -1997798699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol down walk2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3146
+        width: 155
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4bc1aee32a60e4e87743fba049fe80
+      internalID: -1849668863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol up idle
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2850
+        width: 122
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4288d84f1bacca4581ca6730438a304
+      internalID: 515477759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three  pistol up walk1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2858
+        width: 120
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32cf380492d15a49b00e4e0dd181302
+      internalID: 1583056903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol up walk2
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 2861
+        width: 157
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f913af4fdbaefa54fad3746146f354e8
+      internalID: -164544447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol right idle
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2624
+        width: 200
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cdf26c829221542a2323fc3948fa87
+      internalID: 1165146051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol right walk1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 2634
+        width: 200
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051d88e39a9770f4ea9c2c68fda17d6c
+      internalID: 1225139600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol right walk2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2626
+        width: 144
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a68ed9f4334104f9396f86b01cdf18
+      internalID: 201973506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol left idle
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2390
+        width: 201
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2d63a164398b94b91d5da46358e706
+      internalID: -1699982328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol left walk1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2393
+        width: 201
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb216c54e077ba42bdb47ca81b929cb
+      internalID: 527774796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three pistol left walk2
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2372
+        width: 142
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19329da1d7f37c240a5685b36b214e54
+      internalID: -1015446218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine down idle
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2055
+        width: 122
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5436c472fe51f4ba9687edf66015ea
+      internalID: -182393262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine down walk1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2061
+        width: 137
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75083f0cfb3268439b3eca78381e748
+      internalID: -1245986702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine down walk2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2077
+        width: 139
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6f5eeb0c4e466439856ec5460efdc3
+      internalID: 872165607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine up idle
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1773
+        width: 122
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad310c55d7596874cb1a4aa5b0b91185
+      internalID: -832864104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine up walk1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1778
+        width: 137
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae87c691c1e8e7c46990e5e052f41b2e
+      internalID: -1856067947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine up walk2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1781
+        width: 139
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7093ebb36951be24281f88988f60c352
+      internalID: -1582570857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine left idle
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1560
+        width: 204
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d25b255d29538469dec334c3b98f3b
+      internalID: 17019858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine left walk1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1558
+        width: 182
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4635a6d4830547f43920d4b4778b1fc1
+      internalID: -1041825004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine left walk2
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1561
+        width: 149
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b0c20e2d2284943acfcdc00d712942
+      internalID: 790386282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine right idle
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1303
+        width: 203
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deae843fea599d143b74d36436022b18
+      internalID: -2092965557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine right walk1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1283
+        width: 181
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411363eda050a7247b36fbdb8b7a35f7
+      internalID: -1533001419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three carbine right walk2
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1274
+        width: 148
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81793850f23936245bdd269576e0ccd6
+      internalID: 362092513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg down idle
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 897
+        width: 146
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bfcd674da56f645b063062f9da842b
+      internalID: 1210352386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg down walk1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 909
+        width: 145
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a6650ac7b8cfb4c902052144c67882
+      internalID: 50727788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg down walk2
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 951
+        width: 179
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228e88c7988859e45a4e5d3d0c1e522b
+      internalID: 803249866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg up idle
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 539
+        width: 145
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbac3b028247fdb45ae6f9f91b1bef9e
+      internalID: -541649140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg up walk1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 534
+        width: 147
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8c627c16f33854eb386eb07d430f2c
+      internalID: -360203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg up walk2
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 547
+        width: 178
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dbe4a87ece59940aebf4f586cef0f2
+      internalID: -1792371202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg left idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 261
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4d55bc2f0cbe240a915a98ac1ead2b
+      internalID: 991504995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg left walk1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 264
+        width: 227
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf196c54eaf778448cca04a6ca264ac
+      internalID: -329097505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg left walk2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 261
+        width: 174
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37c198b556466a4f934b774147e6c35
+      internalID: -997290714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg right idle
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 277
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a231ef144573242857429c225b4fda
+      internalID: 2027966351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg right walk1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 23
+        width: 226
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d3197080bd4fb4b9e4375d96df23ab
+      internalID: -868712382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: female three mg right walk2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 0
+        width: 174
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3406213e598b8ef4cbac657882a9ddc1
+      internalID: -1567977002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +881,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      female three pistol down walk2: -1849668863
+      female three pistol down idle: -1467373081
+      female three mg down walk2: 803249866
+      female three carbine right idle: -2092965557
+      female three mg down idle: 1210352386
+      female three mg left walk2: -997290714
+      female three mg right idle: 2027966351
+      female three pistol up walk2: -164544447
+      female three carbine up walk2: -1582570857
+      female three mg left idle: 991504995
+      female three carbine down idle: -182393262
+      female three mg up walk1: -360203
+      female three pistol left walk1: 527774796
+      female three carbine left idle: 17019858
+      female three mg left walk1: -329097505
+      female three carbine left walk1: -1041825004
+      female three carbine left walk2: 790386282
+      female three pistol down walk1: -1997798699
+      female three mg down walk1: 50727788
+      female three carbine down walk1: -1245986702
+      female three mg right walk2: -1567977002
+      female three  pistol up walk1: 1583056903
+      female three pistol right walk1: 1225139600
+      female three pistol right idle: 1165146051
+      female three carbine up idle: -832864104
+      female three pistol left idle: -1699982328
+      female three carbine down walk2: 872165607
+      female three pistol up idle: 515477759
+      female three pistol left walk2: -1015446218
+      female three pistol right walk2: 201973506
+      female three carbine right walk2: 362092513
+      female three mg right walk1: -868712382
+      female three mg up idle: -541649140
+      female three carbine up walk1: -1856067947
+      female three mg up walk2: -1792371202
+      female three carbine right walk1: -1533001419
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
