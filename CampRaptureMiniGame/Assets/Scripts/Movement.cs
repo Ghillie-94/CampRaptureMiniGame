@@ -20,16 +20,6 @@ public class Movement : MonoBehaviour
         //move in set direction with the set force strength
         ourRigidbody.AddForce(inputDirection * forceStrength);
 
-        //use rigidbody to find current vertical & horizontal speed
-        float currentSpeedV = ourRigidbody.velocity.y;
-        float currentSpeedH = ourRigidbody.velocity.x;
-
-        // get animator component that will be used for setting animation
-        Animator ourAnimator = GetComponent<Animator>();
-
-        // tell animator what the speed is
-        ourAnimator.SetFloat("speedV", currentSpeedV);
-        ourAnimator.SetFloat("speedH", currentSpeedH);
     }
 
     public void MoveUp()
