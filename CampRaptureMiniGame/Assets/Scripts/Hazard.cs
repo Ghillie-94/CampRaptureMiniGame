@@ -37,6 +37,7 @@ public class Hazard : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            Destroy(objectWeCollidedWith.gameObject);
         }
     }
     
