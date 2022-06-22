@@ -702,7 +702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 525, y: 0}
+  m_AnchoredPosition: {x: 1176, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &954099519
@@ -997,7 +997,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 3719783709104654463, guid: 4f135e1eb2cafd74e86a71e6a7ac884c, type: 3}
   JoystickContainer: {fileID: 689252078}
   projectileSpeed: 10
-  goalTime: 0.2
+  goalTime: 0.175
 --- !u!1 &1652467457
 GameObject:
   m_ObjectHideFlags: 0
