@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 61855712}
   - component: {fileID: 61855711}
   - component: {fileID: 61855710}
-  - component: {fileID: 61855713}
   m_Layer: 5
   m_Name: FireButton
   m_TagString: Untagged
@@ -207,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 61855711}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1533742209}
+        m_TargetAssemblyTypeName: PlayerFire, Assembly-CSharp
+        m_MethodName: FireProjectile
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &61855711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,20 +257,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61855708}
   m_CullTransparentMesh: 1
---- !u!114 &61855713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61855708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d73b22002606584982a4f668c615420, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 0}
-  projectileVelocity: {x: 0, y: 0}
 --- !u!1 &361349346
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,7 +358,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -435,20 +431,6 @@ Transform:
   m_Father: {fileID: 1533742201}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac24521b16bb9b448a74d49d87b7985, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
-  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &530685148
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0be9d00406b30f442a0de55ba73612d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 1455222950464156130, guid: 300fbe1e0b5d9584db129b1f584b29dd, type: 3}
+  projectilePrefab: {fileID: 8710371129990688978, guid: a9eb948cc20edec4ba3c8b03c3c9953e, type: 3}
 --- !u!4 &1454672244
 Transform:
   m_ObjectHideFlags: 0
@@ -679,10 +661,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1533742201}
   - component: {fileID: 1533742203}
-  - component: {fileID: 1533742204}
   - component: {fileID: 1533742206}
   - component: {fileID: 1533742205}
+  - component: {fileID: 1533742209}
   - component: {fileID: 1533742207}
+  - component: {fileID: 1533742208}
   m_Layer: 0
   m_Name: female three  pistol up walk1
   m_TagString: Untagged
@@ -758,26 +741,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1533742204
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1533742200}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1ccb070adf5b4e2418985cad5d5a040c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1533742205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,7 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd414aa466ca2244859d236604476eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceStrength: 10
+  forceStrength: 8
   JoystickContainer: {fileID: 361349346}
   inputDirection: {x: 0, y: 0}
 --- !u!50 &1533742206
@@ -806,7 +769,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 10
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -826,6 +789,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88ff76437a44a7a4a975e901557732a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &1533742208
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533742200}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.22, y: 2.021398}
+    newSize: {x: 1.1999999, y: 2.0113912}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.22, y: 2.021398}
+  m_EdgeRadius: 0
+--- !u!114 &1533742209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533742200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d73b22002606584982a4f668c615420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 3719783709104654463, guid: 4f135e1eb2cafd74e86a71e6a7ac884c, type: 3}
+  projectileVelocity: {x: 0, y: 10}
 --- !u!1 &1652467457
 GameObject:
   m_ObjectHideFlags: 0
