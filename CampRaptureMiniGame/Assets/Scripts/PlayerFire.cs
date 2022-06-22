@@ -7,15 +7,16 @@ public class PlayerFire : MonoBehaviour
     // Unity editior variable
     public GameObject projectilePrefab;
     public Vector2 projectileVelocity;
+    
 
     //KEYBOARD/GAMEPAD INPUT
     //condition: when the player presses a key or a button...
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+       /* if (Input.GetButtonDown("Fire1"))
         {
             FireProjectile();
-        }
+        }*/
 
     }
 
