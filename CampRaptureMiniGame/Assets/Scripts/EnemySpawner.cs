@@ -6,6 +6,7 @@ public class EnemySpawner : MonoBehaviour
 {
     public GameObject projectilePrefab;
     private float timer = 4f;
+    public float spawnTime = 4f;
 
     // Update is called once per frame
     void Update()
@@ -14,7 +15,12 @@ public class EnemySpawner : MonoBehaviour
         if (timer <= 0)
         {
             SpawnEnemy();
-            timer = 4f;
+            timer = spawnTime;
+            if (spawnTime > 0.1)
+            {
+                spawnTime -= 0.1f;
+            }
+            
         }
     }
 

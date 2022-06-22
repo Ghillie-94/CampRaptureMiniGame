@@ -6,16 +6,24 @@ public class PlayerFire : MonoBehaviour
 {
     // Unity editior variable
     public GameObject projectilePrefab;
-    public Vector2 projectileVelocity;
+    private Vector2 projectileDirection;
+    public GameObject JoystickContainer;
+    public float projectileSpeed;
+    public float goalTime;
+    private float startTime;
 
     //KEYBOARD/GAMEPAD INPUT
     //condition: when the player presses a key or a button...
     void Update()
     {
-       /* if (Input.GetButtonDown("Fire1"))
+        projectileDirection = JoystickContainer.GetComponent<joystick>().InputDirection;
+        if ((projectileDirection.x != 0 || projectileDirection.y != 0) && (Time.time >= startTime + goalTime))
         {
             FireProjectile();
-        }*/
+            startTime = Time.time;
+
+        }
+
 
     }
 
@@ -37,7 +45,7 @@ public class PlayerFire : MonoBehaviour
         //get the rigidbody from our cloned projectile and store it
         projectileRigidbody = clonedProjectile.GetComponent<Rigidbody2D>();
         // Set the velocity on the rigidbody to the editor setting
-        projectileRigidbody.velocity = projectileVelocity;
+        projectileRigidbody.velocity = projectileDirection * projectileSpeed;
 
 
     }
