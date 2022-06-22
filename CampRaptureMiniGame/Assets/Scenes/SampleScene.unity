@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 61855712}
   - component: {fileID: 61855711}
   - component: {fileID: 61855710}
+  - component: {fileID: 61855713}
   m_Layer: 5
   m_Name: FireButton
   m_TagString: Untagged
@@ -245,6 +246,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61855708}
   m_CullTransparentMesh: 1
+--- !u!114 &61855713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61855708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d73b22002606584982a4f668c615420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 0}
+  projectileVelocity: {x: 0, y: 0}
 --- !u!1 &361349346
 GameObject:
   m_ObjectHideFlags: 0
