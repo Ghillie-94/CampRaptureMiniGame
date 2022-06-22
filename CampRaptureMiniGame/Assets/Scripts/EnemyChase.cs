@@ -6,7 +6,7 @@ public class EnemyChase : MonoBehaviour
 {
     // Public variables
     public float forceStrength; // how fast we move
-    public Transform target; // the thing you want to chase!
+    private Transform target; // the thing you want to chase!
 
     //private variables
     private Rigidbody2D ourRigidbody; // the rigidbody attached to this object for movement
@@ -19,6 +19,10 @@ public class EnemyChase : MonoBehaviour
         ourRigidbody = GetComponent<Rigidbody2D>();
     }
 
+    private void Start()
+    {
+        target = FindObjectOfType<PlayerHealth>().transform;
+    }
     // Update is called once per frame
     void Update()
     {
