@@ -393,7 +393,7 @@ RectTransform:
   m_GameObject: {fileID: 361349346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 530685149}
@@ -801,7 +801,7 @@ RectTransform:
   m_GameObject: {fileID: 689252078}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 623989145}
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd414aa466ca2244859d236604476eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceStrength: 6
+  forceStrength: 2
   JoystickContainer: {fileID: 361349346}
   inputDirection: {x: 0, y: 0}
 --- !u!50 &1533742206
@@ -1098,7 +1098,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 2.8
+  m_LinearDrag: 0.5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
