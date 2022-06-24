@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd414aa466ca2244859d236604476eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceStrength: 2
+  forceStrength: 12
   JoystickContainer: {fileID: 361349346}
   inputDirection: {x: 0, y: 0}
 --- !u!50 &1533742206
@@ -1098,8 +1098,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.5
-  m_AngularDrag: 0.05
+  m_LinearDrag: 3
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0

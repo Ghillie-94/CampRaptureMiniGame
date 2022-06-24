@@ -11,7 +11,7 @@ public class Movement : MonoBehaviour
     
 
    
-    public void Update()
+    public void FixedUpdate()
     {
         inputDirection = JoystickContainer.GetComponent<joystick>().InputDirection;
         // Get the rigidbody that we'll be using for movement

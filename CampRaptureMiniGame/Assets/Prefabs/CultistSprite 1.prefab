@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -3067557240884951334}
   - component: {fileID: 5943739048232033157}
   - component: {fileID: -4216688382164685476}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CultistSprite 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aafc7793c59af774ea31b90bac488640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceStrength: 1
+  forceStrength: 2.5
 --- !u!50 &-3067557240884951334
 Rigidbody2D:
   serializedVersion: 4

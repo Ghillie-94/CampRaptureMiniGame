@@ -24,7 +24,7 @@ public class EnemyChase : MonoBehaviour
         target = FindObjectOfType<PlayerHealth>().transform;
     }
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // move in the direction of our target
 
